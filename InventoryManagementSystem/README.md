@@ -28,3 +28,12 @@ Inventory Management System Requirements:
 
   - While the primary focus is on backend development, you have the option to create a simple User Interface using either a Command-Line Interface (CLI) or a web application using JSP and Servlets for users to interact with the application.
 
+Compile :
+
+javac -cp lib/mysql-connector-java-8.2.0.jar src/*.java -d bin
+
+After compiling all the class files will be created in bin folder.
+
+Run : 
+
+java -cp "bin:lib/mysql-connector-java-8.2.0.jar" Main
